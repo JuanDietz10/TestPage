@@ -1,0 +1,248 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: #101010;
+}
+
+scroll-container
+{
+display: block;
+margin: 0 auto;
+/**padding: 0px;*/
+/**text-align: center;*/
+}
+
+
+#Top
+{
+    background-color: #303030;
+    padding-top: 10px;
+}
+
+#contactSection
+{
+    background-color: #505050;
+    max-width: fit-content;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+  scroll-container {
+    display: block;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    background-color: #101010;
+    background-blend-mode:darken;
+    /**padding: 0px;*/
+  }
+  scroll-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:fit-content;
+    font-size: 5em;
+  }
+
+  .UppBar
+{
+    font-family: 'Roboto', sans-serif;
+    /**font-weight: bold;*/
+    color: #f0f0f0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 15px;
+    border: 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+#UppBarDiv
+{
+    background-color: #101010;
+    font-size: large;
+    padding-top: 4px;
+    background-blend-mode:darken;
+    /**position: fixed;*/
+}
+
+p, li
+{
+    font-family: 'Roboto', sans-serif;
+    /**font-weight: bold;*/
+    color: #f0f0f0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 15px;
+    border: 0px;
+    padding: 6px 0px 0px 0px;
+}
+
+#UppBarTitle
+{
+    font-family: 'Roboto', sans-serif;
+    /**font-weight: bold;*/
+    color: #f0f0f0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 25px;
+    border: 0px;
+    padding: 0px 0px 2px 0px;
+}
+
+#portfolio
+{
+    width: 1080px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+#textSection
+{
+    width: 1080px;
+}
+
+#subtitle
+{
+    color: #f0f0f0;
+    margin-top: 25px;
+}
+
+#endButton
+{
+    color: #f0f0f0;
+    font-size: large;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#cvImg
+{
+    max-width: 200px;
+    max-height: 200px;
+    border: 20px solid #303030;
+
+}
+
+#TopImgDiv
+{
+    background-image: url("../IMG/Test_0.jpg");
+    background-size:cover;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-position: top;
+    padding-top: 100px;
+    padding-bottom: 350px;
+    padding-left: 40px;
+    margin-bottom: 25px;
+    box-shadow: inset 0px 0px 10px 10px #505050;
+}
+
+#TopImg
+{
+    color: #f0f0f0;
+    font-size: 50px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#TopImgDesc
+{
+    color: #f0f0f0;
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#portImg
+{
+    margin-bottom: 10px;
+    margin-top: 25px;
+}
+
+#links
+{
+    color: #f0f0f0;
+    font-size: large;
+}
+
+#linkDiv
+{
+    font-size: large;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+label
+{
+    color: #f0f0f0;
+    font-size: medium;
+}
+
+input
+{
+    color: #f0f0f0;
+    font-size: medium;
+}
+
+#field
+{
+    font-size: medium;
+    width: 200px;
+    color:#000000;
+    padding: 10px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#name, #email
+{
+    background-color: #f0f0f0;
+    font-size: medium;
+    width: 350px;
+    color:#000000;
+    padding: 10px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.form-control
+{
+    font-size: medium;
+    color:#000000;
+    padding: 10px;
+    margin-bottom: 0px;
+    margin-left: 300px;
+    margin-right: 10px;
+}
+
+#submitBtn
+{
+    color: #101010;
+    font-size: medium;
+    margin: 0px;
+    padding: 0px 20px 0px;
+}
+
+#fieldGroups
+{
+    font-size: 30px;
+    width: 300;
+    margin-top: 0px;
+    padding: 0px 0px 0px 0px;
+}
